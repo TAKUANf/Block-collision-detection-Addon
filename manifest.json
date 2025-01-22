@@ -1,0 +1,25 @@
+{
+    "format_version": 2,
+    "header": {
+      "name": "Block collision detection",
+      "description": "衝突検出アドオンです",
+      "uuid": "35b8765b-8250-4486-93c3-74aa16c73e5b",
+      "version": [ 0, 0, 1 ],
+      "min_engine_version": [ 1, 21, 0 ]
+    },
+    "modules": [
+      {
+        "language": "javascript",
+        "type": "script",
+        "uuid": "573962cf-86b0-4b87-9561-a5b2247c4a88",
+        "version": "1.0.0-beta",
+        "entry": "scripts/index.js"
+      }
+    ],
+    "dependencies": [
+      {
+        "module_name": "@minecraft/server",
+        "version": "1.17.0-beta"
+      }
+    ]
+}
