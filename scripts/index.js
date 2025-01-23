@@ -22,8 +22,8 @@ const fenceOffset = {
   max: { x: 0.1251, y: 1.5, z: 0.1251 }
 };
 const paneOffset = {
-  min: { x: -0.1251, y: 0, z: -0.1251 },
-  max: { x: 0.1251, y: 1.5, z: 0.1251 }
+  min: { x: -0.06251, y: 0, z: -0.06251 },
+  max: { x: 0.06251, y: 1, z: 0.06251 }
 };
 const wallOffset = {
   min: { x: -0.1251, y: 0, z: -0.1251 },
